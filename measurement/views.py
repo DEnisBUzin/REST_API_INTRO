@@ -1,8 +1,3 @@
-# TODO: опишите необходимые обработчики, рекомендуется использовать generics APIView классы:
-# TODO: ListCreateAPIView, RetrieveUpdateAPIView, CreateAPIView
-from django.shortcuts import render
-from django.urls import reverse
-from rest_framework.decorators import api_view
 from rest_framework.generics import RetrieveUpdateAPIView, ListCreateAPIView, CreateAPIView
 from rest_framework.response import Response
 
